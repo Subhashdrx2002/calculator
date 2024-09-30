@@ -3,6 +3,8 @@
   border-radius: 5px;
   width: 250px;
   margin: 250px;
+  min-width: 200px;
+  max-width: 250px;
 }
 
 #display {
@@ -45,6 +47,8 @@ body {
     transform-style: preserve-3d;
     animation: float 3s ease-in-out infinite;
     position: relative;
+   margin: 100px;
+   margin-top: auto;
 }
 
 @keyframes float {
